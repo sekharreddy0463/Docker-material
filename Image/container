@@ -1,0 +1,13 @@
+Docker Image
+A Docker image is a template or blueprint for creating containers.
+It is a read-only file that contains everything needed to run an application, including the application code, libraries, dependencies, environment variables, and configuration files.
+Images are static and don't change once created, making them portable and reusable across environments.
+They are created using a Dockerfile which defines the instructions for building the image.
+Docker Container
+A Docker container is a runtime instance of a Docker image.
+It is a live, running environment that operates based on the image but includes writable layers, meaning you can interact with it, run processes, and store temporary data during its lifecycle.
+Containers can be started, stopped, moved, or deleted independently, giving flexibility to run applications in isolation.
+Each container is isolated and encapsulates its environment, but they share the host OS kernel.
+Key Differences
+Image: Blueprint for the environment; read-only and static.
+Container: Running instance of an image; read-write and dynamic.
